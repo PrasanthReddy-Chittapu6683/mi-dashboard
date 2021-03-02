@@ -262,7 +262,7 @@ function Dashboard() {
                         <div className={clsx(classes.menuButton, open && classes.menuButtonHidden)}>
                             <AssessmentIcon />
                             <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-                                MI Dashboard
+                                Single Status Page
                             </Typography>
                         </div>
                         <div className={classes.menuHeaderIcons}>
@@ -273,8 +273,8 @@ function Dashboard() {
                     </Toolbar>
                 </AppBar>
                 <main >
-                    <div style={{  marginRight: '10px',marginLeft: '10px', marginTop: '15vh' }}>
-                        <ServicesList />
+                    <div style={{ marginRight: '10px', marginLeft: '10px', marginTop: '15vh' }}>
+                        <ServicesList classes={classes} />
                     </div>
                     <div className={classes.content}>
 

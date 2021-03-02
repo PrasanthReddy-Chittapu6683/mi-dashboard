@@ -19,7 +19,9 @@
 * {
   font-family: RNHouseSans, sans-serif !important;
 }
-
+.Mui-selected{
+  /* background-color:gray !important; */
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
